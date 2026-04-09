@@ -186,13 +186,13 @@ These results suggest that the weather and time-based features are highly effect
 
 ### 1. ANOVA Feature Importance
 
-![ANOVA Feature Importance](Screenshot%202026-04-09%20at%2010.15.14%E2%80%AFpm.png)
+![ANOVA Feature Importance](ANOVA_feature_importance.png)
 
 This chart ranks the predictors used in the solar forecasting model based on ANOVA scores. The most important feature is **surface solar radiation**, followed by **daylight indicator (`day`)**, **relative humidity**, **temperature**, and **hour**. This aligns well with real-world expectations, since solar output is naturally driven by sunlight intensity and time of day.
 
 ### 2. Predicted Solar Output for All Panels
 
-![Predicted Solar Output](Screenshot%202026-04-09%20at%2010.15.32%E2%80%AFpm.png)
+![Predicted Solar Output](Predicted_solar_output.png)
 
 This line plot shows the predicted solar generation across six solar panels. All panels follow a similar cyclical daily pattern, with output rising during daylight hours and falling close to zero overnight. The different peak heights suggest that the panels have different production capacities, but they still respond consistently to the same weather and daylight conditions.
 
